@@ -5,7 +5,7 @@
 			<value>Level1</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6dbfcfe8-5569-4b98-9ce1-d4af547d8443}</destination>
@@ -242,7 +242,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{043555fb-10c9-427b-93f9-b93fdccc7802}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-2.5</value>
 		</property>
 		<property name="name">
 			<value>Drums</value>
@@ -276,9 +276,6 @@
 	<object class="MultiSound" id="{7f70dea3-3d28-4bcc-ac4a-730c4437f1b7}">
 		<property name="length">
 			<value>86.328000000000003</value>
-		</property>
-		<property name="playlistMode">
-			<value>2</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{75b0f38f-78d4-4e4a-9fda-0bd951576624}</destination>
@@ -340,6 +337,7 @@
 			<destination>{7b389a97-1bd7-42b8-b2f7-3d5b4ead9317}</destination>
 			<destination>{6b1d2298-3e65-4e8d-ae65-5751e580ffbb}</destination>
 			<destination>{e810542a-4870-448f-ab5b-0255e57ea1fb}</destination>
+			<destination>{c1d98cda-0c4c-4be3-a1cd-94981fb02d1e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5b2c37a0-4f0a-40c0-84cd-a73989f6be34}" />
@@ -423,6 +421,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{0a1e168c-2f1f-4144-bb46-94bcc6e8c2c8}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3f4a42c9-8898-41fa-a225-a7170d1717db}</destination>
 		</relationship>
@@ -486,15 +487,16 @@
 	</object>
 	<object class="FlangerEffect" id="{e810542a-4870-448f-ab5b-0255e57ea1fb}">
 		<property name="rate">
-			<value>0.0249999985</value>
+			<value>0.0199999996</value>
 		</property>
 		<property name="delay">
-			<value>0.00999999978</value>
+			<value>0.0180000011</value>
 		</property>
 		<property name="mix">
 			<value>19</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{c1d98cda-0c4c-4be3-a1cd-94981fb02d1e}" />
 	<object class="AutomationPoint" id="{735921af-1053-4d9d-9e7f-11d1600d1e05}">
 		<property name="position">
 			<value>0</value>
