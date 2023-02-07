@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f6978daf-b73d-4504-85a6-7883bd1e6580}">
+		<property name="name">
+			<value>CustomerMood</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d236dde9-8475-4390-8ebe-5a68c2bed27c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{73fabc19-5d78-43cf-b35e-bfff63f4c9ba}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{73fabc19-5d78-43cf-b35e-bfff63f4c9ba}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Greeting</value>
+			<value>Thankful</value>
+			<value>Surprised</value>
+			<value>FrustratedShort</value>
+			<value>FrustratedLong</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
