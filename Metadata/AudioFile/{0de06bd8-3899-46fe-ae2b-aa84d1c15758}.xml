@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{1ef30609-8475-4711-866a-407ddb5fcd9c}">
+	<object class="AudioFile" id="{0de06bd8-3899-46fe-ae2b-aa84d1c15758}">
 		<property name="assetPath">
-			<value>SpelProj2.mp3</value>
+			<value>Musik Level1/Level 1 SaxGuitar.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>52.368000000000002</value>
+			<value>86.328000000000003</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{4c925e9d-9295-45b1-9dc3-5eb91c430e91}</destination>
