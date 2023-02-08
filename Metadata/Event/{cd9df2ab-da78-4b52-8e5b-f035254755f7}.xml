@@ -8,7 +8,7 @@
 			<value>BoxHandling</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -141,7 +141,11 @@
 			<destination>{b1728411-cd18-481f-8c82-948d5e312827}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{58ee316f-ed6c-4841-80b9-0b4fea68917d}" />
+	<object class="MixerBusPanner" id="{58ee316f-ed6c-4841-80b9-0b4fea68917d}">
+		<property name="overridingOutputFormat">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3dcf273a-ea52-4e5f-8d2e-ce2734980418}" />
 	<object class="SingleSound" id="{486b6f52-e1ba-4f79-9e3d-b28a027992e2}">
 		<relationship name="audioFile">

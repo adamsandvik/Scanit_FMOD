@@ -8,7 +8,7 @@
 			<value>DoorEntrance</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -59,7 +59,14 @@
 			<destination>{5fae6f5d-0f7a-4c6e-ba6e-48ce2b14299b}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{d83c1e6f-9fe0-48a5-9c43-ca3e42935539}" />
+	<object class="EventAutomatableProperties" id="{d83c1e6f-9fe0-48a5-9c43-ca3e42935539}">
+		<property name="minimumDistance">
+			<value>8.40000057</value>
+		</property>
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{694df200-0c19-4fb2-bc85-c3cde8f50a88}" />
 	<object class="GroupTrack" id="{09fb469e-559b-47fe-9efd-6ef8b6ba131c}">
 		<relationship name="modules">
@@ -122,7 +129,11 @@
 			<destination>{096fdc7a-0890-4735-9886-f587dfd73da9}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{32a59c12-e58a-4103-a065-29de2a11ad02}" />
+	<object class="MixerBusPanner" id="{32a59c12-e58a-4103-a065-29de2a11ad02}">
+		<property name="overridingOutputFormat">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f1b621e7-3485-4937-997b-b393f9648247}" />
 	<object class="FadeCurve" id="{35c4f1c7-33c0-4526-ab20-449373a70dd5}">
 		<relationship name="startPoint">
@@ -139,7 +150,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{ee875b53-a203-4a84-bb5b-43e795b0fbd7}" />
 	<object class="MixerBusFader" id="{38f1fbef-27d2-4446-8ac0-b868aeb9a9e1}" />
-	<object class="SpatialiserEffect" id="{096fdc7a-0890-4735-9886-f587dfd73da9}" />
+	<object class="SpatialiserEffect" id="{096fdc7a-0890-4735-9886-f587dfd73da9}">
+		<property name="minimumDistance">
+			<value>8.40000057</value>
+		</property>
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{59978593-af8c-4843-b65f-12b26bc95754}">
 		<property name="position">
 			<value>1.8</value>
