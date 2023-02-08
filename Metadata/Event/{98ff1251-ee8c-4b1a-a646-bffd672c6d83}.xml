@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{98ff1251-ee8c-4b1a-a646-bffd672c6d83}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>MaleCustomer</value>
 		</property>
@@ -56,7 +59,7 @@
 			<destination>{2ef078f0-b942-4b92-a7a2-b8a75d61a9ec}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+			<destination>{8a282567-c653-4363-952b-0c18b5204714}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{438afe69-5301-4afd-a716-a8c05d06a85f}" />
@@ -144,7 +147,6 @@
 			<value>2</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{94399adc-8727-45b8-8663-cf7ca57f7c9a}</destination>
 			<destination>{77ac0ed3-857b-45af-ba3f-3d6a99c33f69}</destination>
 			<destination>{b6d23ead-8631-4fa0-a75c-07bb6b3f431a}</destination>
 			<destination>{8bb6bf72-0065-498d-bb51-f9a60eb8881b}</destination>
@@ -200,6 +202,8 @@
 		<relationship name="effects">
 			<destination>{fbddef20-cd46-4191-adc6-c64d1150ffc0}</destination>
 			<destination>{19adafad-fbc4-45bf-af0f-eeeda0c906f4}</destination>
+			<destination>{c63898e3-25f1-4761-98e1-92b36b33e706}</destination>
+			<destination>{d7a402d4-043d-4a02-933e-c961c0c60186}</destination>
 			<destination>{2cfea9b5-faed-4f1c-9a6e-9cba5c91fb98}</destination>
 		</relationship>
 	</object>
@@ -334,11 +338,6 @@
 			<destination>{a9c31fd1-a3fd-46fb-bcc5-551876082d84}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{94399adc-8727-45b8-8663-cf7ca57f7c9a}">
-		<relationship name="audioFile">
-			<destination>{72632ba7-4f99-4aa9-8b6c-cfc24bbe3b4d}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{77ac0ed3-857b-45af-ba3f-3d6a99c33f69}">
 		<relationship name="audioFile">
 			<destination>{9c4d2015-e572-4e52-9db6-00d0365f3267}</destination>
@@ -375,6 +374,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{60b28016-4206-4c74-a464-c4bbdf96ed40}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3ea9e5df-3276-4ff1-9995-1e9eb5a0cae3}</destination>
 		</relationship>
@@ -460,6 +462,49 @@
 		</property>
 		<property name="attackTime">
 			<value>1.80000007</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{c63898e3-25f1-4761-98e1-92b36b33e706}">
+		<property name="filterTypeA">
+			<value>5</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>67.9084778</value>
+		</property>
+		<property name="frequencyB">
+			<value>314.623352</value>
+		</property>
+		<property name="qualityA">
+			<value>0.71824342</value>
+		</property>
+		<property name="gainB">
+			<value>-2.86956406</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{d7a402d4-043d-4a02-933e-c961c0c60186}">
+		<property name="decayTime">
+			<value>500</value>
+		</property>
+		<property name="earlyDelay">
+			<value>3</value>
+		</property>
+		<property name="lateDelay">
+			<value>4</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>10</value>
+		</property>
+		<property name="highCut">
+			<value>160</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>58</value>
+		</property>
+		<property name="wetLevel">
+			<value>-19</value>
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{2cfea9b5-faed-4f1c-9a6e-9cba5c91fb98}" />

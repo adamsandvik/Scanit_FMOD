@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{72bd6f1d-af05-4115-989f-3d6b5b172608}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<property name="name">
 			<value>ScanDeny</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{9e0a5206-c5ba-474c-a232-e4621b3e4198}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+			<destination>{9b2f4b82-db91-4aef-813f-c47910f9e7f0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3245b50c-8294-4a6f-8174-5b052a3893d3}" />

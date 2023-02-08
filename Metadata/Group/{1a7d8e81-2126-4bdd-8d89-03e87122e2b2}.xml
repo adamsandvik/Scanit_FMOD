@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{1a7d8e81-2126-4bdd-8d89-03e87122e2b2}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="name">
+			<value>VO</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{255f245b-b89d-46ee-830e-3bf3cea26a63}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{9ecadb35-1d90-46c1-a05c-aa5499053bc0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{255f245b-b89d-46ee-830e-3bf3cea26a63}">
+		<relationship name="effects">
+			<destination>{bba32550-4eb9-4edd-bf2d-211b41a32df5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{9ecadb35-1d90-46c1-a05c-aa5499053bc0}" />
+	<object class="MixerBusFader" id="{bba32550-4eb9-4edd-bf2d-211b41a32df5}" />
+</objects>

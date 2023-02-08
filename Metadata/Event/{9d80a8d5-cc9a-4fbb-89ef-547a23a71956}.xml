@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9d80a8d5-cc9a-4fbb-89ef-547a23a71956}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<property name="name">
 			<value>DoorEntrance</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{0e756479-b3c1-4115-8680-7977c5f9550b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+			<destination>{5fae6f5d-0f7a-4c6e-ba6e-48ce2b14299b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d83c1e6f-9fe0-48a5-9c43-ca3e42935539}" />
