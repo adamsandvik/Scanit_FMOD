@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ab61d42f-ce71-416f-b819-100665734430}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<property name="name">
 			<value>FlamesTrashbin</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{c2caa93e-e41c-4b85-bc58-b045336cee63}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+			<destination>{63eb7aa1-8679-4532-823e-784116cfd3d4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a7874d0d-c26a-4386-86eb-2326d454e46a}" />
