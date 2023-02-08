@@ -416,6 +416,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{75b0f38f-78d4-4e4a-9fda-0bd951576624}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{10ccb78d-a82d-41c7-97b5-96718d17f39b}</destination>
 		</relationship>
@@ -459,7 +462,7 @@
 	<object class="MixerBusFader" id="{760046ff-9527-471c-b10e-c069af2b61d8}" />
 	<object class="ThreeEQEffect" id="{7b389a97-1bd7-42b8-b2f7-3d5b4ead9317}">
 		<property name="lowGain">
-			<value>-5</value>
+			<value>-8.5</value>
 		</property>
 		<property name="midGain">
 			<value>-3</value>
@@ -496,7 +499,11 @@
 			<value>19</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{c1d98cda-0c4c-4be3-a1cd-94981fb02d1e}" />
+	<object class="SpatialiserEffect" id="{c1d98cda-0c4c-4be3-a1cd-94981fb02d1e}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{735921af-1053-4d9d-9e7f-11d1600d1e05}">
 		<property name="position">
 			<value>0</value>
