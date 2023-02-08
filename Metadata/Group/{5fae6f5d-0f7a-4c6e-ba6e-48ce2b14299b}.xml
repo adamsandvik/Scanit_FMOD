@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{5fae6f5d-0f7a-4c6e-ba6e-48ce2b14299b}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
+		<property name="name">
+			<value>DoorEntrance</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{78229a9f-cd7b-4842-84f2-bf7db31d283a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{60f50a64-7310-4cd4-999b-9cc29485c0ee}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{6aca90c3-57d2-47dd-bc1e-fd8572135ca7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{78229a9f-cd7b-4842-84f2-bf7db31d283a}">
+		<relationship name="effects">
+			<destination>{ad99c2de-256c-4762-bbfc-0cf8c50e50ed}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{60f50a64-7310-4cd4-999b-9cc29485c0ee}" />
+	<object class="MixerBusFader" id="{ad99c2de-256c-4762-bbfc-0cf8c50e50ed}" />
+</objects>
