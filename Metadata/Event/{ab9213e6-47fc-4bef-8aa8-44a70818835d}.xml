@@ -8,7 +8,7 @@
 			<value>MaleCustomer 3</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c6efe5e7-2024-4339-a4cb-49a6e05c504a}</destination>
@@ -163,7 +163,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{27aa8407-b9cb-41b9-9bc2-b8dbad5763d5}">
 		<property name="overridingOutputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a08c17e4-57b0-4bb5-98c2-7e983089dd58}" />

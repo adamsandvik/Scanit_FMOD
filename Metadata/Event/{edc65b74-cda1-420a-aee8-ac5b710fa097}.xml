@@ -8,7 +8,7 @@
 			<value>ScanOK</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -127,7 +127,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{999771dc-1c05-48b8-a7ac-9d51b6a56875}">
 		<property name="overridingOutputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{0f2cf7d6-8e6d-4105-aeff-1185a0b187d7}" />

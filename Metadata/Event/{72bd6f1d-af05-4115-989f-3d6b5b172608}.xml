@@ -8,7 +8,7 @@
 			<value>ScanDeny</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -127,7 +127,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{06e2e1ef-88a5-4eab-a236-17a5841a3030}">
 		<property name="overridingOutputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{21880324-0926-44f4-b922-fc026b1d2f4e}" />

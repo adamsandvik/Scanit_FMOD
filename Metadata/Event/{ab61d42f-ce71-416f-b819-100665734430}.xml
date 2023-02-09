@@ -8,7 +8,7 @@
 			<value>FlamesTrashbin</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -128,7 +128,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{5ea65c4d-3693-4ddb-b456-0cd33cd4ab69}">
 		<property name="overridingOutputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{d1333c18-095a-41b3-b80e-722f07ebf5f7}" />

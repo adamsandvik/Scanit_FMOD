@@ -8,7 +8,7 @@
 			<value>DoorEntrance</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -131,7 +131,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{32a59c12-e58a-4103-a065-29de2a11ad02}">
 		<property name="overridingOutputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f1b621e7-3485-4937-997b-b393f9648247}" />
