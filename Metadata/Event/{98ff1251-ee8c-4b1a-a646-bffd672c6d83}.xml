@@ -262,65 +262,41 @@
 	</object>
 	<object class="MixerBusFader" id="{05d6fb2d-45c6-4e29-9e81-b01b0249a701}" />
 	<object class="SingleSound" id="{e6cc92ca-c2da-4bca-b2be-7e50be77c660}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{63ac4eb9-00c2-48a0-9a64-233a3696dd34}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{f2c8d2ef-3a14-4af1-a12a-9953a3bb1716}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{12c44ca8-bbf4-4110-8016-cbef71414fc2}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{a8902391-0686-4293-ad9e-94026f432083}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{87fdd0ff-a3ac-4530-bc5c-218d7c046cd3}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{66886d1e-4f09-4408-a828-1178dea866f5}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{577b71dc-a8e9-4454-9c4a-16aa16287fe7}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{fc50bf20-70bd-4cd4-bb5b-8be275094a43}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{98c8bc2c-5bc3-463d-8bdd-b722a235fd7c}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{a1508d64-20ed-4311-b528-60cac9eb20fb}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{73a04e7b-0e33-468a-87fe-a52d647e210d}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7fa9694b-cf39-4c7f-ab33-424d3df2bf1f}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{6339fcdc-1835-425b-ab55-30a8f7eebe95}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{05081e82-3da0-4361-a5b6-3f305178fc45}">
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{c50538b0-1966-4e93-87e1-4ab99b2f051c}</destination>
 		</relationship>
