@@ -8,7 +8,7 @@
 			<value>ScanDeny</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -103,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8d9f281a-1d53-499b-a270-047b8f7d0bca}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -122,14 +125,18 @@
 			<destination>{8585cee2-819e-4b1b-b393-2772a71ce8b0}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{06e2e1ef-88a5-4eab-a236-17a5841a3030}" />
+	<object class="MixerBusPanner" id="{06e2e1ef-88a5-4eab-a236-17a5841a3030}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{21880324-0926-44f4-b922-fc026b1d2f4e}" />
 	<object class="RandomizerModulator" id="{9ef9950e-b2ac-4f9c-b5b3-7a61b4ef853d}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{96d37176-641b-40a4-a39e-3b52404c2789}">

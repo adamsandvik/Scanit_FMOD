@@ -8,7 +8,7 @@
 			<value>FlamesTrashbin</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71b3a15b-9977-4946-a1e1-c692e3732ca2}</destination>
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{afa99585-891a-4e12-8158-bc91142272e6}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{f1d8980b-f99d-4597-86a9-04952b476e96}</destination>
 		</relationship>
@@ -101,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0a174980-fd2a-4011-85e8-3ddd561cb3c0}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -118,11 +121,16 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f1d8980b-f99d-4597-86a9-04952b476e96}">
 		<relationship name="effects">
+			<destination>{42ded341-cbb8-41df-89d1-4e6fbc6fd72a}</destination>
 			<destination>{dd382a32-ab4f-4397-bf95-476f5e7ad0e4}</destination>
 			<destination>{a765dc61-173c-4974-907c-fc853ae8db5a}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5ea65c4d-3693-4ddb-b456-0cd33cd4ab69}" />
+	<object class="MixerBusPanner" id="{5ea65c4d-3693-4ddb-b456-0cd33cd4ab69}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d1333c18-095a-41b3-b80e-722f07ebf5f7}" />
 	<object class="MixerBusEffectChain" id="{6ae18091-49a1-4a1a-a19d-7325d20e5b59}">
 		<relationship name="effects">
@@ -130,6 +138,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{128185fb-7bd2-4e12-b709-ac10484ff02e}" />
+	<object class="CompressorEffect" id="{42ded341-cbb8-41df-89d1-4e6fbc6fd72a}">
+		<property name="threshold">
+			<value>-14</value>
+		</property>
+		<property name="ratio">
+			<value>3</value>
+		</property>
+		<property name="attackTime">
+			<value>1.80000007</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{dd382a32-ab4f-4397-bf95-476f5e7ad0e4}" />
 	<object class="SpatialiserEffect" id="{a765dc61-173c-4974-907c-fc853ae8db5a}" />
 	<object class="MixerBusFader" id="{26d63b76-ac1f-4359-910c-9b3bccb376a4}" />

@@ -8,7 +8,7 @@
 			<value>BoxHandling</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a02716b3-2897-4865-b00d-86d752e8ce1b}</destination>
@@ -82,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4671fca8-193a-471c-b982-c2e58f29c3ad}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{008d2768-29d6-4d26-b5a6-0ac1d2f09fe6}</destination>
 		</relationship>
@@ -138,7 +141,11 @@
 			<destination>{b1728411-cd18-481f-8c82-948d5e312827}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{58ee316f-ed6c-4841-80b9-0b4fea68917d}" />
+	<object class="MixerBusPanner" id="{58ee316f-ed6c-4841-80b9-0b4fea68917d}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3dcf273a-ea52-4e5f-8d2e-ce2734980418}" />
 	<object class="SingleSound" id="{486b6f52-e1ba-4f79-9e3d-b28a027992e2}">
 		<relationship name="audioFile">
