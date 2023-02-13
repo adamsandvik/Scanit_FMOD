@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3025459d-7d3a-460f-b684-4eb195ed450f}">
+		<property name="note">
+			<value>GDur (G-Am-D)</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
