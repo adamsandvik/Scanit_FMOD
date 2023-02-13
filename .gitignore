@@ -22,6 +22,7 @@
 
 # Ignore these FMOD-files
 .*/
+/Metadata/Workspace.xml
 !.gitignore
 
 # Ignore the Cache-file since it is updated locally either way
