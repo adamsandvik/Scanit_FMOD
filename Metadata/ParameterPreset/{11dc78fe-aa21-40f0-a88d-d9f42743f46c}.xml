@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{11dc78fe-aa21-40f0-a88d-d9f42743f46c}">
+		<property name="name">
+			<value>WaterDropsLevel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d236dde9-8475-4390-8ebe-5a68c2bed27c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ca205b02-b628-47ef-8c37-052884f1e555}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ca205b02-b628-47ef-8c37-052884f1e555}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.23999999463558197</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
