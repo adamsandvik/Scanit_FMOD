@@ -530,7 +530,7 @@
 	</object>
 	<object class="SingleSound" id="{807a4dab-0dc0-400b-bd95-787113658f94}">
 		<property name="volume">
-			<value>-1</value>
+			<value>-4.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0de06bd8-3899-46fe-ae2b-aa84d1c15758}</destination>
@@ -592,12 +592,12 @@
 	</object>
 	<object class="HighpassEffect" id="{548777dc-9ef3-4539-b7e2-d34ba28a0a58}">
 		<property name="cutoff">
-			<value>340</value>
+			<value>580</value>
 		</property>
 	</object>
 	<object class="LowpassEffect" id="{9120be49-d6b7-481a-8356-19404b2750b6}">
 		<property name="cutoff">
-			<value>9000</value>
+			<value>8000</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{03605679-7877-4ea5-84a0-721f7c620b4b}" />
