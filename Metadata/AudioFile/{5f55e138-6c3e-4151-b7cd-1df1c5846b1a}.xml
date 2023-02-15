@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5f55e138-6c3e-4151-b7cd-1df1c5846b1a}">
 		<property name="assetPath">
-			<value>VO/Man 1/VO_Raw_FrustratedMan_Long-008.wav</value>
+			<value>Costumer/VO/Man 1/VO_Raw_FrustratedMan_Long-008.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

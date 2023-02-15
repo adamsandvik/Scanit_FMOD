@@ -94,6 +94,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a646335d-3184-4388-8835-216c156704c1}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a357d84d-ec12-48e0-839d-96a4b899d8be}</destination>
 		</relationship>
@@ -117,8 +120,8 @@
 		<property name="maximumTimeDelay">
 			<value>4000</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{e6cc92ca-c2da-4bca-b2be-7e50be77c660}</destination>
@@ -137,8 +140,8 @@
 		<property name="start">
 			<value>1</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{ceffba34-7922-438c-bcb0-f5cf0f2fed49}</destination>
@@ -162,8 +165,8 @@
 		<property name="start">
 			<value>2</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{77ac0ed3-857b-45af-ba3f-3d6a99c33f69}</destination>
@@ -189,8 +192,8 @@
 		<property name="maximumTimeDelay">
 			<value>7000</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{265482f2-3b6e-41a8-bdd6-8a4baaf551f4}</destination>
@@ -207,8 +210,8 @@
 		<property name="start">
 			<value>3</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{65adacb1-767e-492f-b514-eadf22db7012}</destination>
