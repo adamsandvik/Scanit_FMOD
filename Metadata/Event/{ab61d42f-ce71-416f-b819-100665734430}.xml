@@ -59,7 +59,11 @@
 			<destination>{63eb7aa1-8679-4532-823e-784116cfd3d4}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{a7874d0d-c26a-4386-86eb-2326d454e46a}" />
+	<object class="EventAutomatableProperties" id="{a7874d0d-c26a-4386-86eb-2326d454e46a}">
+		<property name="maximumDistance">
+			<value>8.60000038</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{d4c295d4-b671-4e2e-ac2e-105a2bb00771}" />
 	<object class="GroupTrack" id="{6b45e7bb-be2d-4b3c-b4b7-d5c69c9a5c07}">
 		<relationship name="modules">
@@ -98,6 +102,9 @@
 		<property name="length">
 			<value>1.99</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{da743531-9e0e-495e-9ac8-52b00cd24c89}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{0653da1e-23c8-40e2-8c36-ac388d6592d7}</destination>
 		</relationship>
@@ -132,6 +139,14 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{d1333c18-095a-41b3-b80e-722f07ebf5f7}" />
+	<object class="RandomizerModulator" id="{da743531-9e0e-495e-9ac8-52b00cd24c89}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>8.5</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{6ae18091-49a1-4a1a-a19d-7325d20e5b59}">
 		<relationship name="effects">
 			<destination>{26d63b76-ac1f-4359-910c-9b3bccb376a4}</destination>
@@ -150,6 +165,10 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{dd382a32-ab4f-4397-bf95-476f5e7ad0e4}" />
-	<object class="SpatialiserEffect" id="{a765dc61-173c-4974-907c-fc853ae8db5a}" />
+	<object class="SpatialiserEffect" id="{a765dc61-173c-4974-907c-fc853ae8db5a}">
+		<property name="maximumDistance">
+			<value>8.60000038</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{26d63b76-ac1f-4359-910c-9b3bccb376a4}" />
 </objects>
