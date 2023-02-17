@@ -2,16 +2,16 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b4449867-cf1c-41c4-b099-488bb4a83fce}">
 		<property name="color">
-			<value>Cyan</value>
+			<value>Red</value>
 		</property>
 		<property name="name">
-			<value>BossVoice</value>
+			<value>BossTutorialOlliver</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{c6efe5e7-2024-4339-a4cb-49a6e05c504a}</destination>
+			<destination>{3c20b6d6-0c38-4afa-993b-a42952ecaa25}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{8e7cf16d-17cd-4fc1-87bc-c38770bf1bbd}</destination>
