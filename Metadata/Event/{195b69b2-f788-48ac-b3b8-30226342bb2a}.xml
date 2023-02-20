@@ -182,18 +182,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e12ed87e-59e1-4db1-9dd0-f4ae81269d94}">
-		<property name="volume">
-			<value>-2</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{d4a7f4f4-8d61-44d0-aa19-2b9442bc4acd}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{6ae98fe7-5cb3-4204-84e0-22252faddd40}">
 		<property name="start">
-			<value>1</value>
-		</property>
-		<property name="volume">
 			<value>1</value>
 		</property>
 		<relationship name="audioFile">
@@ -211,9 +205,6 @@
 	<object class="SingleSound" id="{58491a18-a1b8-4816-bde8-e349041f3680}">
 		<property name="start">
 			<value>2</value>
-		</property>
-		<property name="volume">
-			<value>1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{59700135-dd11-4609-97f5-78dce3087211}</destination>
@@ -250,9 +241,6 @@
 		<property name="start">
 			<value>1</value>
 		</property>
-		<property name="volume">
-			<value>1</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{6b5fac80-adaf-445e-8454-71ced6082500}</destination>
 		</relationship>
@@ -260,9 +248,6 @@
 	<object class="SingleSound" id="{2bbd313f-b7c3-4265-ab76-b7fdda68dbf5}">
 		<property name="start">
 			<value>2</value>
-		</property>
-		<property name="volume">
-			<value>1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{b11d06cb-fa74-4506-afe6-1252728fc50d}</destination>
@@ -315,9 +300,6 @@
 		<property name="start">
 			<value>2</value>
 		</property>
-		<property name="volume">
-			<value>2</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{446a756a-477f-42a8-8469-7d308f7fb647}</destination>
 		</relationship>
@@ -368,9 +350,6 @@
 	<object class="SingleSound" id="{60678bcb-d26f-433d-a563-ed94bfa04840}">
 		<property name="start">
 			<value>2</value>
-		</property>
-		<property name="volume">
-			<value>1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{13ce9362-b66b-47eb-82a9-62521939a1cb}</destination>
@@ -495,20 +474,13 @@
 	<object class="MixerBusFader" id="{1c912457-d57a-4fc7-9f07-f8ede32edb9c}" />
 	<object class="CompressorEffect" id="{081296ee-7823-4d10-ae36-b4aa7e0086fa}">
 		<property name="threshold">
-<<<<<<< Updated upstream
 			<value>-4.5</value>
-=======
-			<value>-15</value>
->>>>>>> Stashed changes
 		</property>
 		<property name="ratio">
 			<value>3.29999995</value>
 		</property>
 		<property name="attackTime">
-			<value>3</value>
-		</property>
-		<property name="gain">
-			<value>2.5</value>
+			<value>1.80000007</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{7029236f-f519-4e2a-9b5c-e789012bac7e}">
@@ -518,41 +490,17 @@
 		<property name="filterTypeB">
 			<value>9</value>
 		</property>
-		<property name="filterTypeD">
-			<value>9</value>
-		</property>
-		<property name="filterTypeE">
-			<value>2</value>
-		</property>
 		<property name="frequencyA">
-			<value>334.80011</value>
+			<value>67.9084778</value>
 		</property>
 		<property name="frequencyB">
-			<value>3627.26147</value>
-		</property>
-		<property name="frequencyD">
-			<value>1869.11658</value>
-		</property>
-		<property name="frequencyE">
-			<value>6479.30664</value>
+			<value>314.623352</value>
 		</property>
 		<property name="qualityA">
-			<value>0.56048274</value>
-		</property>
-		<property name="qualityB">
-			<value>1.95000005</value>
-		</property>
-		<property name="qualityD">
-			<value>3</value>
-		</property>
-		<property name="qualityE">
-			<value>0.1627931</value>
+			<value>0.71824342</value>
 		</property>
 		<property name="gainB">
-			<value>15</value>
-		</property>
-		<property name="gainD">
-			<value>9.82758522</value>
+			<value>-2.86956406</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{cb877132-d146-41f6-974b-a849649005d9}">
