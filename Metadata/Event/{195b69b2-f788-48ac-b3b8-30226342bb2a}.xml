@@ -474,13 +474,16 @@
 	<object class="MixerBusFader" id="{1c912457-d57a-4fc7-9f07-f8ede32edb9c}" />
 	<object class="CompressorEffect" id="{081296ee-7823-4d10-ae36-b4aa7e0086fa}">
 		<property name="threshold">
-			<value>-4.5</value>
+			<value>-12</value>
 		</property>
 		<property name="ratio">
 			<value>3.29999995</value>
 		</property>
 		<property name="attackTime">
 			<value>1.80000007</value>
+		</property>
+		<property name="gain">
+			<value>3.5</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{7029236f-f519-4e2a-9b5c-e789012bac7e}">
@@ -490,17 +493,41 @@
 		<property name="filterTypeB">
 			<value>9</value>
 		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>2</value>
+		</property>
 		<property name="frequencyA">
-			<value>67.9084778</value>
+			<value>295.662567</value>
 		</property>
 		<property name="frequencyB">
-			<value>314.623352</value>
+			<value>2948.47095</value>
+		</property>
+		<property name="frequencyC">
+			<value>5963.97363</value>
+		</property>
+		<property name="frequencyE">
+			<value>5266.79639</value>
 		</property>
 		<property name="qualityA">
-			<value>0.71824342</value>
+			<value>0.648939133</value>
+		</property>
+		<property name="qualityB">
+			<value>6</value>
+		</property>
+		<property name="qualityC">
+			<value>5.20000029</value>
+		</property>
+		<property name="qualityE">
+			<value>0.648939133</value>
 		</property>
 		<property name="gainB">
-			<value>-2.86956406</value>
+			<value>14.347826</value>
+		</property>
+		<property name="gainC">
+			<value>13.826086</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{cb877132-d146-41f6-974b-a849649005d9}">
