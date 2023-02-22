@@ -90,9 +90,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6aa792a9-29d9-4dac-a868-b70c23bfd19c}">
-		<property name="volume">
-			<value>-9.5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{5ebdd95d-e44b-419a-b1d1-fa09b7c10ec8}</destination>
 		</relationship>
@@ -110,6 +107,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{01a695ee-a32c-4496-aff9-89a506ff4701}" />
 	<object class="MultiSound" id="{6c32c480-7ec2-499a-983a-7ff7d865cfac}">
+		<property name="triggerProbability">
+			<value>20</value>
+		</property>
 		<property name="minimumTimeDelay">
 			<value>4000</value>
 		</property>
@@ -203,6 +203,12 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{7774a36e-4fbd-405d-b967-a75769142596}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>49.5</value>
+		</property>
 		<property name="start">
 			<value>3</value>
 		</property>
@@ -540,6 +546,10 @@
 			<value>-19</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{2ded1857-4ccb-4a50-9b55-96573103681b}" />
+	<object class="SpatialiserEffect" id="{2ded1857-4ccb-4a50-9b55-96573103681b}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f0531e89-ff4e-4249-9c05-1a41d289416e}" />
 </objects>

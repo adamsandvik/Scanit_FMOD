@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{26848dc9-185e-42e9-8be2-5f855243de37}">
+		<property name="assetPath">
+			<value>SFX/Interactables/Tape/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c925e9d-9295-45b1-9dc3-5eb91c430e91}</destination>
+		</relationship>
+	</object>
+</objects>
