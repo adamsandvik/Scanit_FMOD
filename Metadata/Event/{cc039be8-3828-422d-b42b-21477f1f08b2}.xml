@@ -400,7 +400,7 @@
 			<destination>{1a8097b7-d8c9-42e1-a5a3-ccbd3531db8c}</destination>
 			<destination>{d4ceed6e-9af4-4a39-96f7-0672364927be}</destination>
 			<destination>{f50aec09-3b96-408a-8934-4bf573b4e310}</destination>
-			<destination>{82083aad-3f4d-4588-abb2-e5056e728624}</destination>
+			<destination>{9ff9d903-4042-48a2-a9ce-f1a6fc937d1d}</destination>
 			<destination>{7d866041-1c4d-454d-9924-6e9ed3b78ece}</destination>
 		</relationship>
 	</object>
@@ -535,7 +535,7 @@
 	</object>
 	<object class="HighpassEffect" id="{f0d228b8-3968-403b-93ba-45c39bee6662}">
 		<property name="cutoff">
-			<value>700</value>
+			<value>740</value>
 		</property>
 		<property name="resonance">
 			<value>1.27999997</value>
@@ -543,7 +543,7 @@
 	</object>
 	<object class="LowpassEffect" id="{1a8097b7-d8c9-42e1-a5a3-ccbd3531db8c}">
 		<property name="cutoff">
-			<value>3600</value>
+			<value>4000</value>
 		</property>
 		<property name="resonance">
 			<value>1.29999995</value>
@@ -551,18 +551,21 @@
 	</object>
 	<object class="MixerBusFader" id="{d4ceed6e-9af4-4a39-96f7-0672364927be}" />
 	<object class="SpatialiserEffect" id="{f50aec09-3b96-408a-8934-4bf573b4e310}" />
-	<object class="SFXReverbEffect" id="{82083aad-3f4d-4588-abb2-e5056e728624}">
-		<property name="HFDecayRatio">
-			<value>33</value>
+	<object class="SFXReverbEffect" id="{9ff9d903-4042-48a2-a9ce-f1a6fc937d1d}">
+		<property name="decayTime">
+			<value>230</value>
 		</property>
-		<property name="lowShelfFrequency">
-			<value>270</value>
+		<property name="HFDecayRatio">
+			<value>46.5</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-10.5</value>
+		</property>
+		<property name="highCut">
+			<value>1800</value>
 		</property>
 		<property name="wetLevel">
-			<value>-3.5</value>
-		</property>
-		<property name="dryLevel">
-			<value>-3</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="LoudnessMeter" id="{7d866041-1c4d-454d-9924-6e9ed3b78ece}" />
