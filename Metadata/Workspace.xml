@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{ca347928-eba2-4b13-9455-2f6834536119}">
 		<property name="builtBanksOutputDirectory">
-			<value>../Scanit/Assets/Plugins/FMOD/Banks</value>
+			<value>../Scanit_fix/Assets/Plugins/FMOD/Banks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{e3656baf-2aa9-4fa3-8a04-0762c7708f45}</destination>
