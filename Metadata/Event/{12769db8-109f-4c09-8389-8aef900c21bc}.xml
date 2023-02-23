@@ -69,7 +69,7 @@ WaterDropsLevel styr volym på Raindrop01.
 			<destination>{a53e3b86-c8ab-449c-84be-2648e63671e1}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+			<destination>{b725db42-6316-47a1-a57d-b0bb1f705580}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d6ac4d4b-9f99-4fff-be1a-122ba06ceb7b}">

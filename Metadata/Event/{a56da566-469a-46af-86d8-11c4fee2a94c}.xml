@@ -65,7 +65,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{aae33399-a85a-469e-abb4-ac318b79c2e3}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+			<destination>{b725db42-6316-47a1-a57d-b0bb1f705580}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1816f239-7d8b-412a-a4c4-c1f717808677}" />
