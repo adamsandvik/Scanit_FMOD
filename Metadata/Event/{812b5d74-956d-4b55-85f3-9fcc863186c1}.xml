@@ -523,7 +523,11 @@
 			<value>-3</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{b45cd32f-cec5-48c1-962b-3d4566317f23}" />
+	<object class="SpatialiserEffect" id="{b45cd32f-cec5-48c1-962b-3d4566317f23}">
+		<property name="panBlend">
+			<value>0.600000024</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{fdc0ee5c-88ec-4240-9bab-11b7640f53c7}">
 		<property name="position">
 			<value>0</value>

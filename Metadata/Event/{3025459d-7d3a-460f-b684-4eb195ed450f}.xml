@@ -408,7 +408,6 @@
 			<destination>{548777dc-9ef3-4539-b7e2-d34ba28a0a58}</destination>
 			<destination>{9120be49-d6b7-481a-8356-19404b2750b6}</destination>
 			<destination>{03605679-7877-4ea5-84a0-721f7c620b4b}</destination>
-			<destination>{a5282992-5a47-4cda-bdbc-ffcc606bd558}</destination>
 			<destination>{7716e703-de3d-43f3-a76c-137dbd036a48}</destination>
 			<destination>{16f5edfa-9dd5-4ec5-a540-496caf35d9c1}</destination>
 			<destination>{6d06c892-6c3b-45ee-9485-49ff8b0cd763}</destination>
@@ -579,20 +578,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{03605679-7877-4ea5-84a0-721f7c620b4b}" />
-	<object class="ThreeEQEffect" id="{a5282992-5a47-4cda-bdbc-ffcc606bd558}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-		<property name="lowGain">
-			<value>-8.5</value>
-		</property>
-		<property name="midGain">
-			<value>-3</value>
-		</property>
-		<property name="highGain">
-			<value>-2.5</value>
-		</property>
-	</object>
 	<object class="SFXReverbEffect" id="{7716e703-de3d-43f3-a76c-137dbd036a48}">
 		<property name="decayTime">
 			<value>230</value>
@@ -619,6 +604,9 @@
 		</property>
 		<property name="maximumDistance">
 			<value>3</value>
+		</property>
+		<property name="panBlend">
+			<value>0.649999976</value>
 		</property>
 	</object>
 	<object class="LoudnessMeter" id="{6d06c892-6c3b-45ee-9485-49ff8b0cd763}" />
