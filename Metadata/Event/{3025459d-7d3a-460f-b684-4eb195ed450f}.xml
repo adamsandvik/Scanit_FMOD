@@ -596,6 +596,9 @@
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{16f5edfa-9dd5-4ec5-a540-496caf35d9c1}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="distanceRolloffType">
 			<value>1</value>
 		</property>

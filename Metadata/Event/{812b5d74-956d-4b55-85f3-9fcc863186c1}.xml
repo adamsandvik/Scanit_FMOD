@@ -524,6 +524,9 @@
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{b45cd32f-cec5-48c1-962b-3d4566317f23}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="panBlend">
 			<value>0.600000024</value>
 		</property>

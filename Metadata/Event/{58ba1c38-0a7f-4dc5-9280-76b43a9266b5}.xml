@@ -8,7 +8,7 @@
 			<value>Radio</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6dbfcfe8-5569-4b98-9ce1-d4af547d8443}</destination>
@@ -679,6 +679,7 @@
 	<object class="MixerBusEffectChain" id="{2a3e004d-0db3-4a1b-9d95-e89fd556033d}">
 		<relationship name="effects">
 			<destination>{930feb14-2bbd-4f9b-925b-1edeab87c657}</destination>
+			<destination>{4693c562-ddae-4413-8192-307d72a64d21}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8c649ea7-2514-4421-befc-4bcfc434fb0a}" />
@@ -852,6 +853,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{930feb14-2bbd-4f9b-925b-1edeab87c657}" />
+	<object class="SpatialiserEffect" id="{4693c562-ddae-4413-8192-307d72a64d21}">
+		<property name="panBlend">
+			<value>0.714999974</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{9ed71bda-3ebf-4e66-899b-2e9987b06690}">
 		<relationship name="parameter">
 			<destination>{92797797-cdeb-4a17-a791-82376ade3fe2}</destination>

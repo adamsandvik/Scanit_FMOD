@@ -332,11 +332,8 @@
 		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{96b554b7-8093-42be-adc3-f1d584a12b7d}">
-		<property name="start">
-			<value>2.6666666666666665</value>
-		</property>
 		<property name="length">
-			<value>0</value>
+			<value>2.6666666666666665</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{4e02601b-b74c-47d2-8e1c-ba8924719c92}">
@@ -609,6 +606,9 @@
 	</object>
 	<object class="MixerBusFader" id="{d4ceed6e-9af4-4a39-96f7-0672364927be}" />
 	<object class="SpatialiserEffect" id="{f50aec09-3b96-408a-8934-4bf573b4e310}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="panBlend">
 			<value>0.594999969</value>
 		</property>
