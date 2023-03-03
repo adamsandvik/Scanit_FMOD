@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f36068e7-6b11-47ad-9154-86fad3123083}">
+		<property name="assetPath">
+			<value>SFX/UI/Menu/Negative_Paper_02_User_Interface_UI-127.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0666666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c925e9d-9295-45b1-9dc3-5eb91c430e91}</destination>
+		</relationship>
+	</object>
+</objects>

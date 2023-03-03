@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f4ebdea8-d567-4cf1-8086-2e2d858859f4}">
+		<property name="assetPath">
+			<value>SFX/UI/Menu/Discard_Changes_Paper_03_User_Interface_UI-110.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5146666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c925e9d-9295-45b1-9dc3-5eb91c430e91}</destination>
+		</relationship>
+	</object>
+</objects>

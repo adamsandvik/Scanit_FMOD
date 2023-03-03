@@ -5,7 +5,7 @@
 			<value>AmbienceLoop</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f5de8cfe-36b6-4490-abc9-5d33434c2590}</destination>
@@ -95,7 +95,6 @@
 	<object class="MixerBusEffectChain" id="{35d0f8bf-6b8a-4561-b8c1-abf96b77bda3}">
 		<relationship name="effects">
 			<destination>{47fc9765-44b6-4aec-9781-1b324c8a03ba}</destination>
-			<destination>{4dd09ec6-5e37-4319-ae2d-af069dc5f290}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2a822c84-7913-42fd-9c1c-aba43161abea}" />
@@ -107,6 +106,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{2254c588-700e-44ff-83f0-48418f41f8a9}" />
 	<object class="MixerBusFader" id="{47fc9765-44b6-4aec-9781-1b324c8a03ba}" />
-	<object class="SpatialiserEffect" id="{4dd09ec6-5e37-4319-ae2d-af069dc5f290}" />
 	<object class="MixerBusFader" id="{8d3821a6-1d34-427e-a352-6b94b8cb4584}" />
 </objects>

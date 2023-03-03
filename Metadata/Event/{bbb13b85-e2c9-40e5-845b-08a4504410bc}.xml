@@ -5,7 +5,7 @@
 			<value>MouseOver</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f5de8cfe-36b6-4490-abc9-5d33434c2590}</destination>
@@ -95,7 +95,6 @@
 	<object class="MixerBusEffectChain" id="{189a4183-9d01-4333-8215-b58848a7fb00}">
 		<relationship name="effects">
 			<destination>{9f852e49-a80d-464d-b383-4c23022d9503}</destination>
-			<destination>{f462c04b-cd69-4cdb-b0e2-e4045bdccf80}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4785ea01-783c-4ef3-9a32-cf62e3b96e8c}" />
@@ -107,6 +106,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{3f9dfc4e-e806-49a7-ad1f-3e447afb5ad8}" />
 	<object class="MixerBusFader" id="{9f852e49-a80d-464d-b383-4c23022d9503}" />
-	<object class="SpatialiserEffect" id="{f462c04b-cd69-4cdb-b0e2-e4045bdccf80}" />
 	<object class="MixerBusFader" id="{61889706-8bbb-4611-8a21-c334a8f3c297}" />
 </objects>
