@@ -791,7 +791,7 @@
 	<object class="MixerBusFader" id="{846eb58a-be00-47d0-ac6b-bfe05aec0d13}" />
 	<object class="SpatialiserEffect" id="{2461b69b-1ee0-4c43-bbb8-c8d1534f0e98}">
 		<property name="panBlend">
-			<value>0.714999974</value>
+			<value>0.675000012</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{0e90c384-c408-40c1-8f91-9d0170acf1b7}">
