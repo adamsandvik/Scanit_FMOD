@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9d80a8d5-cc9a-4fbb-89ef-547a23a71956}">
+		<property name="note">
+			<value>La till cooldown.</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 1</value>
 		</property>
@@ -66,6 +69,9 @@
 		<property name="maximumDistance">
 			<value>30</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>200</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{694df200-0c19-4fb2-bc85-c3cde8f50a88}" />
 	<object class="GroupTrack" id="{09fb469e-559b-47fe-9efd-6ef8b6ba131c}">
@@ -104,6 +110,9 @@
 	<object class="SingleSound" id="{9936cc8c-0666-4d5a-be3b-e6440976acd7}">
 		<property name="length">
 			<value>2.9000000000000004</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
 		</property>
 		<property name="volume">
 			<value>-5</value>
