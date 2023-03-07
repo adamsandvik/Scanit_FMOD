@@ -314,6 +314,9 @@
 		<property name="length">
 			<value>100.17391304347825</value>
 		</property>
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{904e6ee4-9d33-46d6-8fc5-f85f5cde7e08}</destination>
 		</relationship>
@@ -612,13 +615,13 @@
 			<value>1685.17639</value>
 		</property>
 		<property name="frequencyD">
-			<value>3940.68457</value>
+			<value>4651.11719</value>
 		</property>
 		<property name="qualityA">
 			<value>0.606713057</value>
 		</property>
 		<property name="gainD">
-			<value>-7.56521606</value>
+			<value>-13.826086</value>
 		</property>
 	</object>
 </objects>

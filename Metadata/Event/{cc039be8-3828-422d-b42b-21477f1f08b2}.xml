@@ -322,6 +322,9 @@
 		<property name="length">
 			<value>24.006530612244898</value>
 		</property>
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{d3e6b167-5e42-4736-8f0e-18150f0ec72e}</destination>
 		</relationship>
@@ -573,6 +576,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d26050f5-3830-4324-bd4e-d9bd6abce3a8}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{b9056299-a36c-4443-bdd0-0109c66527e7}</destination>
 		</relationship>
@@ -585,6 +591,7 @@
 	<object class="MixerBusEffectChain" id="{8b7c8fe5-df31-4a9c-907f-d462d61daeab}">
 		<relationship name="effects">
 			<destination>{5d278553-df40-4183-bc6c-c3cbe21d06d3}</destination>
+			<destination>{62786f02-c8e6-444e-87be-0f9176703b78}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f56b341e-d091-41a3-87d6-4897ca7fac0a}" />
@@ -843,6 +850,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5d278553-df40-4183-bc6c-c3cbe21d06d3}" />
+	<object class="ThreeEQEffect" id="{62786f02-c8e6-444e-87be-0f9176703b78}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2aab5b1f-a1b1-4150-b4ed-71c55fdcf2dd}" />
 	<object class="AutomationPoint" id="{0502be2b-f897-4e5a-ac0c-4533630b8ff8}">
 		<property name="position">
