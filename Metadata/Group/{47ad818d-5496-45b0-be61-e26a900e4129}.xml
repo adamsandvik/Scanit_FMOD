@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>Footstep</value>
 		</property>
+		<relationship name="masters">
+			<destination>{990064d6-a7f8-4bb7-b41e-cfd82f6bc199}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{bfecac12-6a3e-42cc-8026-a9dd519151a5}</destination>
 		</relationship>

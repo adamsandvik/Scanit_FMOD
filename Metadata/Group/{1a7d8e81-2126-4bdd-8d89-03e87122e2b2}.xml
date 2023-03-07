@@ -10,6 +10,9 @@
 		<property name="name">
 			<value>VO</value>
 		</property>
+		<relationship name="masters">
+			<destination>{3ec0d3f1-5cae-49e1-8ea8-1cb6da750b28}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{255f245b-b89d-46ee-830e-3bf3cea26a63}</destination>
 		</relationship>
