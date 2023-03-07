@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c05a1479-5a16-4c1c-98f7-433a1479da2a}">
+		<property name="assetPath">
+			<value>Boss/Jonna/VOXFem_BossHarass03 Jonna_AS_SCANIT.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.5505833333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c925e9d-9295-45b1-9dc3-5eb91c430e91}</destination>
+		</relationship>
+	</object>
+</objects>

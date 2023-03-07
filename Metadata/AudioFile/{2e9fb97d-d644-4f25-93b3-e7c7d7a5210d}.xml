@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{2e9fb97d-d644-4f25-93b3-e7c7d7a5210d}">
 		<property name="assetPath">
-			<value>Boss/VOXFem_Tutorial Jonna_AS_SCANIT.wav</value>
+			<value>Boss/Jonna/VOXFem_Tutorial Jonna_AS_SCANIT.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
