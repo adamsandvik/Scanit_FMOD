@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b5474106-7529-4534-ae03-8b8eec30430f}">
+		<property name="name">
+			<value>BossTutorial</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d236dde9-8475-4390-8ebe-5a68c2bed27c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1763e796-c077-46c5-aa16-48fe045cc613}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1763e796-c077-46c5-aa16-48fe045cc613}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Part 1</value>
+			<value>Part 2</value>
+			<value>Part 3</value>
+			<value>Part 4</value>
+			<value>Part 5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

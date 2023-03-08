@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{c0d326f8-6bc1-4108-8160-7158f06acfef}">
 		<property name="assetPath">
-			<value>Boss/Jonna/VOXFem_BossHarass07 Jonna_AS_SCANIT.wav</value>
+			<value>Boss/Jonna/Harass/VOXFem_BossHarass07 Jonna_AS_SCANIT.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
