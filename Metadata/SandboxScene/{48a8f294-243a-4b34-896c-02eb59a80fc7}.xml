@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SandboxScene" id="{48a8f294-243a-4b34-896c-02eb59a80fc7}">
+		<property name="name">
+			<value>test</value>
+		</property>
+		<relationship name="folder">
+			<destination>{66923cc0-12ab-454d-ad88-4b174bb06afb}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{e32cb00e-41d8-4654-811c-3b98d61b76b1}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{99dc71f2-3533-4c03-9723-a9aec8c8fc56}</destination>
+		</relationship>
+		<relationship name="emitters">
+			<destination>{679aae6d-a6fc-4de3-af48-5ea8954d53a4}</destination>
+			<destination>{12eb3fc2-2eb2-41cd-b4e7-d565694ac7f4}</destination>
+			<destination>{ca3e8a02-756b-4146-be3e-3fcfb54c56c4}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{e32cb00e-41d8-4654-811c-3b98d61b76b1}" />
+	<object class="Timeline" id="{99dc71f2-3533-4c03-9723-a9aec8c8fc56}" />
+	<object class="SandboxEmitter" id="{679aae6d-a6fc-4de3-af48-5ea8954d53a4}">
+		<property name="positionX">
+			<value>-13.5249996</value>
+		</property>
+		<property name="positionZ">
+			<value>6.4749999</value>
+		</property>
+		<property name="rotationY">
+			<value>96.4124756</value>
+		</property>
+		<relationship name="event">
+			<destination>{ce76cb26-539b-45c1-9fd6-217b47030911}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{12eb3fc2-2eb2-41cd-b4e7-d565694ac7f4}">
+		<property name="positionX">
+			<value>-0.975000024</value>
+		</property>
+		<property name="positionZ">
+			<value>6.875</value>
+		</property>
+		<relationship name="event">
+			<destination>{fb53ae40-15f4-4209-95f4-d059b0e5fd17}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{ca3e8a02-756b-4146-be3e-3fcfb54c56c4}">
+		<property name="positionX">
+			<value>-3.45000005</value>
+		</property>
+		<property name="positionZ">
+			<value>2.57500005</value>
+		</property>
+		<relationship name="event">
+			<destination>{0a26846e-9c0f-4873-8477-a222f00742bd}</destination>
+		</relationship>
+	</object>
+</objects>
