@@ -60,7 +60,11 @@
 			<destination>{390bdb92-5f62-47c8-b029-29e1e699a5ca}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{dff6f101-dda8-4c1c-af00-dbed5fe411ed}" />
+	<object class="EventAutomatableProperties" id="{dff6f101-dda8-4c1c-af00-dbed5fe411ed}">
+		<property name="triggerCooldown">
+			<value>4000</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{4b997f2c-5ef8-46d1-ba81-0646aa485be6}" />
 	<object class="GroupTrack" id="{1ab9291e-f492-42f5-bc5c-531a75553231}">
 		<relationship name="modules">
@@ -106,6 +110,9 @@
 		</property>
 		<property name="length">
 			<value>3.6813750000000001</value>
+		</property>
+		<property name="delayType">
+			<value>0</value>
 		</property>
 		<property name="maxVoices">
 			<value>1</value>
