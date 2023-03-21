@@ -22,10 +22,14 @@
 		<relationship name="snapshotProperties">
 			<destination>{37bf320b-cce4-4544-a559-80a20e50c270}</destination>
 			<destination>{0594bb7b-0467-4897-9c92-05ed036d9a02}</destination>
+			<destination>{5999e90e-e616-4f16-a5cc-858c533e3c6c}</destination>
+			<destination>{f3595612-7e87-4f24-8504-1de0b8d13450}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{a3995ff9-a9de-4e0b-9d33-0e49c5416457}</destination>
 			<destination>{6f190a96-c12d-45a5-bff0-71b903dbfde3}</destination>
+			<destination>{7afec937-a409-4a84-b194-402042fc69c2}</destination>
+			<destination>{2cf19d3c-0e87-42a8-95bc-4cda62f078bf}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b19bfffe-5894-4878-bad5-f3ac2ba31b03}" />
@@ -66,6 +70,40 @@
 			<destination>{d04b5457-0665-4c9f-ad3f-7e461be282ae}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{5999e90e-e616-4f16-a5cc-858c533e3c6c}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-2</value>
+		</property>
+		<relationship name="automators">
+			<destination>{48524612-2932-4c40-9ce8-545834170444}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{42c95030-5f4c-47a1-9cc6-ead9ca22b24e}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{1a7d8e81-2126-4bdd-8d89-03e87122e2b2}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{f3595612-7e87-4f24-8504-1de0b8d13450}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{b1464158-30b3-40ca-b75b-9a91f0758853}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{689fb397-ad8e-4fa3-8ff3-11394c6d96df}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{6aca90c3-57d2-47dd-bc1e-fd8572135ca7}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{a3995ff9-a9de-4e0b-9d33-0e49c5416457}">
 		<relationship name="automationTracks">
 			<destination>{2573bc2d-c08c-476e-978b-d31347bda4bc}</destination>
@@ -80,6 +118,22 @@
 		</relationship>
 		<relationship name="mixerStrip">
 			<destination>{d04b5457-0665-4c9f-ad3f-7e461be282ae}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{7afec937-a409-4a84-b194-402042fc69c2}">
+		<relationship name="automationTracks">
+			<destination>{3e99755d-a890-4006-a6ac-09b986320889}</destination>
+		</relationship>
+		<relationship name="mixerStrip">
+			<destination>{1a7d8e81-2126-4bdd-8d89-03e87122e2b2}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{2cf19d3c-0e87-42a8-95bc-4cda62f078bf}">
+		<relationship name="automationTracks">
+			<destination>{e92ed2ba-3085-4e43-bd6e-8b61c2d2d7ba}</destination>
+		</relationship>
+		<relationship name="mixerStrip">
+			<destination>{6aca90c3-57d2-47dd-bc1e-fd8572135ca7}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{96f1b2cb-0882-449c-8c0a-06a7b98e7819}">
@@ -135,6 +189,53 @@
 			<value>-80</value>
 		</property>
 	</object>
+	<object class="Automator" id="{48524612-2932-4c40-9ce8-545834170444}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>value</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{42c95030-5f4c-47a1-9cc6-ead9ca22b24e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>500</value>
+		</property>
+		<property name="peakValue">
+			<value>-80</value>
+		</property>
+		<property name="sustainValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>340</value>
+		</property>
+	</object>
+	<object class="Automator" id="{b1464158-30b3-40ca-b75b-9a91f0758853}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>value</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{689fb397-ad8e-4fa3-8ff3-11394c6d96df}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>500</value>
+		</property>
+		<property name="peakValue">
+			<value>-80</value>
+		</property>
+		<property name="decayTime">
+			<value>60000</value>
+		</property>
+		<property name="sustainValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
+	</object>
 	<object class="AutomationTrack" id="{2573bc2d-c08c-476e-978b-d31347bda4bc}">
 		<relationship name="automator">
 			<destination>{96f1b2cb-0882-449c-8c0a-06a7b98e7819}</destination>
@@ -143,6 +244,16 @@
 	<object class="AutomationTrack" id="{198c1aca-cdce-4106-90c3-217eb8e77589}">
 		<relationship name="automator">
 			<destination>{27e22240-1e52-4327-8680-cf56a9aa93a7}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{3e99755d-a890-4006-a6ac-09b986320889}">
+		<relationship name="automator">
+			<destination>{48524612-2932-4c40-9ce8-545834170444}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{e92ed2ba-3085-4e43-bd6e-8b61c2d2d7ba}">
+		<relationship name="automator">
+			<destination>{b1464158-30b3-40ca-b75b-9a91f0758853}</destination>
 		</relationship>
 	</object>
 </objects>
