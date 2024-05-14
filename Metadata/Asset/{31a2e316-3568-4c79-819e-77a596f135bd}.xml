@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{31a2e316-3568-4c79-819e-77a596f135bd}">
+		<property name="assetPath">
+			<value>SFX/Interactables/Chips/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c925e9d-9295-45b1-9dc3-5eb91c430e91}</destination>
+		</relationship>
+	</object>
+</objects>
