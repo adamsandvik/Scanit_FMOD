@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{80b74c18-5bf4-42f1-845e-45ea77f81bbd}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<property name="name">
 			<value>DayOne</value>
 		</property>
@@ -43,6 +46,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{a54c3b65-9ef4-4ebe-a620-28536514239a}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{0b36b00c-425b-42a2-89fb-783ce5134260}</destination>
 		</relationship>
@@ -50,7 +56,7 @@
 			<destination>{1793e12b-f839-4ca7-bad2-53d15f7c9376}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6c2cc375-d790-4dde-89c6-e9d8f877e342}</destination>
+			<destination>{25a62188-cafa-46d2-96d1-60656830aef0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{85227f5d-3ac2-4a0a-86b2-3f295b999916}" />

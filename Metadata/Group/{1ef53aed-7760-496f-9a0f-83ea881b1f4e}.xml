@@ -5,7 +5,7 @@
 			<value>Magenta</value>
 		</property>
 		<property name="name">
-			<value>BoxHandling</value>
+			<value>Handling</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{fcddd389-bcb8-404e-9e4b-e2d1c717fd25}</destination>
