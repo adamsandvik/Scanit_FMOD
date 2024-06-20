@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{44dcd47c-f641-4da8-af29-bf49635008c2}">
 		<property name="assetPath">
-			<value>SFX/Ambience/birds/amb_bird_call_03.ogg</value>
+			<value>Ambience/birds/amb_bird_call_08.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

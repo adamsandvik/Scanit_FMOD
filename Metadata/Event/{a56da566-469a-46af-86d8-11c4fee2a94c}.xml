@@ -65,7 +65,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{aae33399-a85a-469e-abb4-ac318b79c2e3}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b725db42-6316-47a1-a57d-b0bb1f705580}</destination>
+			<destination>{fd595e62-cd3b-4efd-9e17-95bea6a63d62}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1816f239-7d8b-412a-a4c4-c1f717808677}" />
@@ -108,6 +108,9 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6b8818bb-238b-4739-8b21-c66494ccda93}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{160be59f-867f-4ed7-ab16-eb5599279cb6}</destination>
 		</relationship>
@@ -230,6 +233,9 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	<object class="EventSound" id="{35ba0bfb-8cca-46f4-ab48-51264a951108}">
 		<property name="length">
 			<value>10</value>
+		</property>
+		<property name="delayType">
+			<value>0</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{457de957-2321-46b7-be37-3de293f6b7ce}</destination>

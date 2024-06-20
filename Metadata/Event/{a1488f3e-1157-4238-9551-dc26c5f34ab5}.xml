@@ -53,7 +53,7 @@
 			<destination>{19c69967-89bd-456d-9ebc-c445fe0d2b2e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b725db42-6316-47a1-a57d-b0bb1f705580}</destination>
+			<destination>{fd595e62-cd3b-4efd-9e17-95bea6a63d62}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c1a0eb7f-ee5c-4376-94dc-706ac4f29c23}" />
@@ -98,17 +98,23 @@
 		<property name="length">
 			<value>4</value>
 		</property>
+		<property name="polyphony">
+			<value>1</value>
+		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>26000</value>
+			<value>18000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>65000</value>
+			<value>30000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>0</value>
+		</property>
+		<property name="volumeRandomization">
+			<value>-2</value>
 		</property>
 		<relationship name="sound">
 			<destination>{48a12844-d1c0-45e3-8fc0-4360d6ebeccc}</destination>

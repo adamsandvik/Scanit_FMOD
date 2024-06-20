@@ -16,18 +16,22 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>7</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Outdoor</value>
-			<value>IndoorSmall</value>
-			<value>IndoorLarge</value>
+			<value>City</value>
+			<value>Jungle</value>
+			<value>Water</value>
+			<value>Desert</value>
+			<value>Forest</value>
+			<value>Tundra</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>
 		<property name="seekSpeed">
-			<value>1.0200000107288361</value>
+			<value>2.3800000250339508</value>
 		</property>
 	</object>
 </objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b9056299-a36c-4443-bdd0-0109c66527e7}">
 		<property name="assetPath">
-			<value>Music/Radio2/Scanit Radio 2 Organ1 90BPM.mp3</value>
+			<value>Music/OLD/Radio2/Scanit Radio 2 Organ1 90BPM.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

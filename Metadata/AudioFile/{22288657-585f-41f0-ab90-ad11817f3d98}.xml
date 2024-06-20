@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{22288657-585f-41f0-ab90-ad11817f3d98}">
 		<property name="assetPath">
-			<value>Music/MainTheme/Scanit Main Theme Drums 115BPM.mp3</value>
+			<value>Music/OLD/MainTheme/Scanit Main Theme Drums 115BPM.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
