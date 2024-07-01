@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{606e4ae0-71e0-4e4e-a614-93ae6546b1ca}">
+		<property name="name">
+			<value>isCounting</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d236dde9-8475-4390-8ebe-5a68c2bed27c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f3a62f6a-ae44-4349-b9b5-e3497b5e6633}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f3a62f6a-ae44-4349-b9b5-e3497b5e6633}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Counting</value>
+			<value>NotCounting</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

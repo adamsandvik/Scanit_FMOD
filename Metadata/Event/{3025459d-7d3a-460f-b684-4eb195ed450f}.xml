@@ -568,11 +568,17 @@
 		</relationship>
 	</object>
 	<object class="HighpassEffect" id="{548777dc-9ef3-4539-b7e2-d34ba28a0a58}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="cutoff">
 			<value>740</value>
 		</property>
 	</object>
 	<object class="LowpassEffect" id="{9120be49-d6b7-481a-8356-19404b2750b6}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="cutoff">
 			<value>4000</value>
 		</property>
