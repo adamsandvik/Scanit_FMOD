@@ -290,6 +290,9 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c52b52c0-e68d-47cc-8074-54968b7b9922}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Jungle</value>
 		</property>
