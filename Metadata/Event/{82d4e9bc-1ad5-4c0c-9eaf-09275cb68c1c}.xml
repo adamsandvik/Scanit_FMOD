@@ -85,6 +85,10 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{34b2a2dd-312b-4e49-ac0b-64a800d10a5c}">
+		<relationship name="modules">
+			<destination>{beb87245-7bcf-4b85-a3b1-4307467ef2a7}</destination>
+			<destination>{8fcb59ef-e112-4059-9eb5-3bc3df235abf}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d9e9b47f-a9c3-4779-9107-29e9f87cb22d}</destination>
 		</relationship>
@@ -113,6 +117,8 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	<object class="GroupTrack" id="{db62f8d6-5e9a-453d-8bca-bb85c3673154}">
 		<relationship name="modules">
 			<destination>{08122f71-2b78-456f-8bab-423364553e77}</destination>
+			<destination>{9b20140d-d256-469d-8bc5-e2d93fe1b29f}</destination>
+			<destination>{eefdae0e-2bba-42bf-a9ea-f973cd2ab89c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{54264a69-44a6-47d6-869a-781a4533e772}</destination>
@@ -121,6 +127,10 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	<object class="GroupTrack" id="{f145bfde-4924-42ec-bf97-f47571b6e4da}">
 		<relationship name="modules">
 			<destination>{d8a22526-df95-4f4f-9900-d2af876b7ae4}</destination>
+			<destination>{8796fc06-5669-4bd2-8898-a8d32e253011}</destination>
+			<destination>{f2ab8a34-be65-4906-ad74-750a82223796}</destination>
+			<destination>{63e3a681-b650-454e-ac3d-db6ed3b9fc4c}</destination>
+			<destination>{ad3ba91d-8ce8-4a0a-bdec-780414db1188}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{0da473d3-b874-4f1a-acbd-e3466d19d8c8}</destination>
@@ -129,32 +139,54 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	<object class="GroupTrack" id="{774570b9-cfd3-4a58-b1ea-e7e95bda9878}">
 		<relationship name="modules">
 			<destination>{d2ef19c0-b9e5-408f-a6fe-15861948a339}</destination>
+			<destination>{70490062-403b-436d-9059-8dc428a928bd}</destination>
+			<destination>{54c4b681-7da2-455b-8ae3-240413736b16}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c52b52c0-e68d-47cc-8074-54968b7b9922}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{82d8b022-6483-4510-9e79-03d71769d012}">
+		<relationship name="modules">
+			<destination>{44f468c8-48e0-4505-b38e-6d74abfa5074}</destination>
+			<destination>{3e8278ae-93ab-4a2a-aebd-adffc23387fd}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2c89314f-d4a2-4a2b-b0f1-81a83a6f9f0e}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{0f8adfae-0fb5-481a-a9d1-b9b1ccab9ea0}">
+		<relationship name="modules">
+			<destination>{1672fba6-243f-4c89-921e-db71b63e5bde}</destination>
+			<destination>{2347c3c0-cef4-45af-b36e-550b23ec40aa}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{78f515a2-1d58-48fe-8520-1a823d63e043}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{c6e23a97-4792-428b-9be1-918d426a648a}">
+		<relationship name="modules">
+			<destination>{1b6aefce-3c00-45b2-b725-5cb7276595a8}</destination>
+			<destination>{4cf34215-35ca-4fd6-b1f5-74102c66534f}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{24ce9816-feca-452c-a351-eb350b0072a4}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{d7d40b1b-583b-445e-9de0-5c9b71a07f50}">
+		<relationship name="modules">
+			<destination>{c7a9abe0-1e77-42c5-ae6f-7b33abcb551e}</destination>
+			<destination>{32974413-8f56-4bd9-b08d-48fb20f01230}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{29c40158-fca2-43e7-b0f2-80716af406e5}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{9a10a554-35ee-4302-acf0-116da7b964d5}">
+		<relationship name="modules">
+			<destination>{acfbd004-babc-48ab-ba01-e94e3be83b26}</destination>
+			<destination>{5cc757c3-5817-4f05-853e-26812cfe9e79}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d6f902fa-d6b8-43d8-896b-ed947d481571}</destination>
 		</relationship>
@@ -168,6 +200,8 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{367d8af2-f9d6-4863-9e48-13d40b0269a1}</destination>
 			<destination>{ca663d8e-3eaf-4d44-9e61-d49bd860b399}</destination>
 			<destination>{32f7f9f9-0251-4a7c-865b-e5a6d15bb0bb}</destination>
+			<destination>{3881bbc3-d473-4b2e-b7cd-42e4708f32c5}</destination>
+			<destination>{427d71e5-31ff-4521-898f-446d6606313d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{9bfb7f80-990e-4dc8-b849-c1531473a583}</destination>
@@ -181,6 +215,8 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{d8a22526-df95-4f4f-9900-d2af876b7ae4}</destination>
 			<destination>{ca663d8e-3eaf-4d44-9e61-d49bd860b399}</destination>
 			<destination>{32f7f9f9-0251-4a7c-865b-e5a6d15bb0bb}</destination>
+			<destination>{63e3a681-b650-454e-ac3d-db6ed3b9fc4c}</destination>
+			<destination>{ad3ba91d-8ce8-4a0a-bdec-780414db1188}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{b0c4dd20-f417-40f9-b601-8f2e33c51224}</destination>
@@ -189,6 +225,10 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{466d4549-0589-45b0-9f11-9e0a7d06d560}</destination>
 			<destination>{e06307ee-e8df-488b-be3d-d6a67f5143ad}</destination>
 			<destination>{a76312ae-4ff3-4037-9bc9-0ff96d11277b}</destination>
+			<destination>{9c074189-1584-473c-a50e-db5a9bf7d5a6}</destination>
+			<destination>{3ac899d1-020a-4af6-9c3d-c5f82c21417d}</destination>
+			<destination>{08cc2cf7-6112-4ab9-9ffa-14ed07795948}</destination>
+			<destination>{c7432f84-5b34-4035-a76a-eaf81a42e476}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{f653bfd9-e351-4ef8-9747-bc38c7c4f941}">
@@ -197,6 +237,9 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d9e9b47f-a9c3-4779-9107-29e9f87cb22d}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{8ec415f8-4a3e-4c5b-97c0-59e74caa6142}</destination>
 		</relationship>
@@ -207,6 +250,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{5a03cb78-b8a6-46df-a51c-ebc47f13df16}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionSourceSound" id="{beb87245-7bcf-4b85-a3b1-4307467ef2a7}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{8fcb59ef-e112-4059-9eb5-3bc3df235abf}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{40e8eb10-4298-497f-9d7e-670feb6f06b4}">
 		<relationship name="effects">
 			<destination>{70143578-95e4-4a80-b0f9-37be0223b789}</destination>
@@ -214,6 +270,9 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="MixerBusPanner" id="{d32bc7e5-f6b6-42ee-8814-17c9bff98c8e}" />
 	<object class="EventSound" id="{08122f71-2b78-456f-8bab-423364553e77}">
+		<property name="start">
+			<value>36.5</value>
+		</property>
 		<property name="length">
 			<value>7.5</value>
 		</property>
@@ -223,6 +282,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		<relationship name="event">
 			<destination>{a56da566-469a-46af-86d8-11c4fee2a94c}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{9b20140d-d256-469d-8bc5-e2d93fe1b29f}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{eefdae0e-2bba-42bf-a9ea-f973cd2ab89c}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{54264a69-44a6-47d6-869a-781a4533e772}">
 		<property name="volume">
@@ -243,7 +315,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="EventSound" id="{d8a22526-df95-4f4f-9900-d2af876b7ae4}">
 		<property name="start">
-			<value>10</value>
+			<value>20</value>
 		</property>
 		<property name="length">
 			<value>6</value>
@@ -251,8 +323,43 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		<relationship name="modulators">
 			<destination>{fe944232-bf07-472b-a2a4-d46b0b8703e6}</destination>
 		</relationship>
-		<relationship name="parameters">
-			<destination>{8f8d046b-1d91-43ff-a471-c563cf3ff217}</destination>
+		<relationship name="event">
+			<destination>{a198cc84-aed2-4dd7-a28e-566fce663dfb}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{8796fc06-5669-4bd2-8898-a8d32e253011}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{f2ab8a34-be65-4906-ad74-750a82223796}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="EventSound" id="{63e3a681-b650-454e-ac3d-db6ed3b9fc4c}">
+		<property name="start">
+			<value>10</value>
+		</property>
+		<property name="length">
+			<value>6</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{89a2fe8c-a003-48ee-801d-f0cb053680bd}</destination>
+		</relationship>
+		<relationship name="event">
+			<destination>{a198cc84-aed2-4dd7-a28e-566fce663dfb}</destination>
+		</relationship>
+	</object>
+	<object class="EventSound" id="{ad3ba91d-8ce8-4a0a-bdec-780414db1188}">
+		<property name="length">
+			<value>6</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{f232ad9f-d477-44d2-8db3-d0dacb03f035}</destination>
 		</relationship>
 		<relationship name="event">
 			<destination>{a198cc84-aed2-4dd7-a28e-566fce663dfb}</destination>
@@ -277,7 +384,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="EventSound" id="{d2ef19c0-b9e5-408f-a6fe-15861948a339}">
 		<property name="start">
-			<value>18</value>
+			<value>28</value>
 		</property>
 		<property name="length">
 			<value>6.8000000000000007</value>
@@ -288,6 +395,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		<relationship name="event">
 			<destination>{201fd0d4-8cab-4d01-aaab-c72bb62d7e74}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{70490062-403b-436d-9059-8dc428a928bd}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{54c4b681-7da2-455b-8ae3-240413736b16}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{c52b52c0-e68d-47cc-8074-54968b7b9922}">
 		<property name="volume">
@@ -306,6 +426,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{d9e9b47f-a9c3-4779-9107-29e9f87cb22d}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionSourceSound" id="{44f468c8-48e0-4505-b38e-6d74abfa5074}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{3e8278ae-93ab-4a2a-aebd-adffc23387fd}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="EventMixerGroup" id="{2c89314f-d4a2-4a2b-b0f1-81a83a6f9f0e}">
 		<property name="name">
 			<value>Water</value>
@@ -319,6 +452,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		<relationship name="output">
 			<destination>{d9e9b47f-a9c3-4779-9107-29e9f87cb22d}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{1672fba6-243f-4c89-921e-db71b63e5bde}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{2347c3c0-cef4-45af-b36e-550b23ec40aa}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{78f515a2-1d58-48fe-8520-1a823d63e043}">
 		<property name="name">
@@ -334,6 +480,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{d9e9b47f-a9c3-4779-9107-29e9f87cb22d}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionSourceSound" id="{1b6aefce-3c00-45b2-b725-5cb7276595a8}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{4cf34215-35ca-4fd6-b1f5-74102c66534f}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="EventMixerGroup" id="{24ce9816-feca-452c-a351-eb350b0072a4}">
 		<property name="name">
 			<value>Forest</value>
@@ -348,6 +507,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{d9e9b47f-a9c3-4779-9107-29e9f87cb22d}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionSourceSound" id="{c7a9abe0-1e77-42c5-ae6f-7b33abcb551e}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{32974413-8f56-4bd9-b08d-48fb20f01230}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="EventMixerGroup" id="{29c40158-fca2-43e7-b0f2-80716af406e5}">
 		<property name="name">
 			<value>Tundra</value>
@@ -361,6 +533,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		<relationship name="output">
 			<destination>{d9e9b47f-a9c3-4779-9107-29e9f87cb22d}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{acfbd004-babc-48ab-ba01-e94e3be83b26}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{5cc757c3-5817-4f05-853e-26812cfe9e79}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{d6f902fa-d6b8-43d8-896b-ed947d481571}">
 		<property name="name">
@@ -440,6 +625,19 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{e8955692-1fec-4baf-9459-ea753f90776d}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionSourceSound" id="{3881bbc3-d473-4b2e-b7cd-42e4708f32c5}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{427d71e5-31ff-4521-898f-446d6606313d}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="EventMixerGroup" id="{9bfb7f80-990e-4dc8-b849-c1531473a583}">
 		<property name="volume">
 			<value>-14.5</value>
@@ -459,7 +657,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="LoopRegion" id="{b0c4dd20-f417-40f9-b601-8f2e33c51224}">
 		<property name="position">
-			<value>18</value>
+			<value>28</value>
 		</property>
 		<property name="length">
 			<value>6.8000000000000007</value>
@@ -482,7 +680,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="LoopRegion" id="{91fcafb7-f988-4d0f-99c4-3c49d8d533f5}">
 		<property name="position">
-			<value>0</value>
+			<value>36.5</value>
 		</property>
 		<property name="length">
 			<value>7.5</value>
@@ -496,7 +694,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="LoopRegion" id="{22f6f5cb-f2e4-4c83-9ad6-cbd536222d47}">
 		<property name="position">
-			<value>0</value>
+			<value>36.5</value>
 		</property>
 		<property name="length">
 			<value>7.5</value>
@@ -519,7 +717,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="LoopRegion" id="{466d4549-0589-45b0-9f11-9e0a7d06d560}">
 		<property name="position">
-			<value>18</value>
+			<value>28</value>
 		</property>
 		<property name="length">
 			<value>6.8000000000000007</value>
@@ -533,7 +731,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="LoopRegion" id="{e06307ee-e8df-488b-be3d-d6a67f5143ad}">
 		<property name="position">
-			<value>10</value>
+			<value>20</value>
 		</property>
 		<property name="length">
 			<value>6</value>
@@ -547,13 +745,13 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="LoopRegion" id="{a76312ae-4ff3-4037-9bc9-0ff96d11277b}">
 		<property name="position">
-			<value>10</value>
+			<value>20</value>
 		</property>
 		<property name="length">
 			<value>6</value>
 		</property>
 		<property name="name">
-			<value>City</value>
+			<value>LevelDowntown</value>
 		</property>
 		<property name="looping">
 			<value>2</value>
@@ -566,6 +764,83 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{374c96a8-63b2-48c2-b159-8e3c570b3310}</destination>
+		</relationship>
+		<relationship name="transitionTimeline">
+			<destination>{5e841160-1d64-4478-84d6-99341388a727}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{9c074189-1584-473c-a50e-db5a9bf7d5a6}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>6</value>
+		</property>
+		<property name="name">
+			<value>MainMenu</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{57551f74-919a-4912-8803-c1084c75a62c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8cc4d8a2-0d5b-4d2b-955a-e5d9afeabc98}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{4a8e5c6a-5459-4c80-afc6-867114d83ae1}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{3ac899d1-020a-4af6-9c3d-c5f82c21417d}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>6</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{57551f74-919a-4912-8803-c1084c75a62c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b277f2f9-b02e-4caa-9ebe-62381812b5d5}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{08cc2cf7-6112-4ab9-9ffa-14ed07795948}">
+		<property name="position">
+			<value>10</value>
+		</property>
+		<property name="length">
+			<value>6</value>
+		</property>
+		<property name="name">
+			<value>LevelSelect</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{57551f74-919a-4912-8803-c1084c75a62c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8cc4d8a2-0d5b-4d2b-955a-e5d9afeabc98}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{6cc8b811-0ab6-4c12-ae57-4652b2dcae1b}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{c7432f84-5b34-4035-a76a-eaf81a42e476}">
+		<property name="position">
+			<value>10</value>
+		</property>
+		<property name="length">
+			<value>6</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{57551f74-919a-4912-8803-c1084c75a62c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b277f2f9-b02e-4caa-9ebe-62381812b5d5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8ec415f8-4a3e-4c5b-97c0-59e74caa6142}">
@@ -620,10 +895,33 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="ParameterProperty" id="{8f8d046b-1d91-43ff-a471-c563cf3ff217}">
-		<relationship name="parameter">
-			<destination>{2a163f03-18d9-476b-b20e-c716200a2100}</destination>
-		</relationship>
+	<object class="ADSRModulator" id="{89a2fe8c-a003-48ee-801d-f0cb053680bd}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>700</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{f232ad9f-d477-44d2-8db3-d0dacb03f035}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>700</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{2729f5d1-5096-448f-acbb-80b9997c2b61}">
 		<relationship name="effects">
@@ -778,6 +1076,28 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="ParameterCondition" id="{3ba39a9d-d847-40e4-805a-6211bb201b6d}">
 		<property name="minimum">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbdedbb0-9524-477c-96fe-4bd1ac690c49}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{85f633f7-2a3b-4846-97e0-a9de608b930d}">
+		<property name="minimum">
+			<value>11</value>
+		</property>
+		<property name="maximum">
+			<value>11</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbdedbb0-9524-477c-96fe-4bd1ac690c49}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{374c96a8-63b2-48c2-b159-8e3c570b3310}">
+		<property name="minimum">
 			<value>2</value>
 		</property>
 		<property name="maximum">
@@ -787,7 +1107,34 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{bbdedbb0-9524-477c-96fe-4bd1ac690c49}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterCondition" id="{85f633f7-2a3b-4846-97e0-a9de608b930d}">
+	<object class="TransitionTimeline" id="{5e841160-1d64-4478-84d6-99341388a727}">
+		<property name="length">
+			<value>2</value>
+		</property>
+		<relationship name="modules">
+			<destination>{9b20140d-d256-469d-8bc5-e2d93fe1b29f}</destination>
+			<destination>{eefdae0e-2bba-42bf-a9ea-f973cd2ab89c}</destination>
+			<destination>{8796fc06-5669-4bd2-8898-a8d32e253011}</destination>
+			<destination>{f2ab8a34-be65-4906-ad74-750a82223796}</destination>
+			<destination>{70490062-403b-436d-9059-8dc428a928bd}</destination>
+			<destination>{54c4b681-7da2-455b-8ae3-240413736b16}</destination>
+			<destination>{44f468c8-48e0-4505-b38e-6d74abfa5074}</destination>
+			<destination>{3e8278ae-93ab-4a2a-aebd-adffc23387fd}</destination>
+			<destination>{1672fba6-243f-4c89-921e-db71b63e5bde}</destination>
+			<destination>{2347c3c0-cef4-45af-b36e-550b23ec40aa}</destination>
+			<destination>{1b6aefce-3c00-45b2-b725-5cb7276595a8}</destination>
+			<destination>{4cf34215-35ca-4fd6-b1f5-74102c66534f}</destination>
+			<destination>{c7a9abe0-1e77-42c5-ae6f-7b33abcb551e}</destination>
+			<destination>{32974413-8f56-4bd9-b08d-48fb20f01230}</destination>
+			<destination>{acfbd004-babc-48ab-ba01-e94e3be83b26}</destination>
+			<destination>{5cc757c3-5817-4f05-853e-26812cfe9e79}</destination>
+			<destination>{3881bbc3-d473-4b2e-b7cd-42e4708f32c5}</destination>
+			<destination>{427d71e5-31ff-4521-898f-446d6606313d}</destination>
+			<destination>{beb87245-7bcf-4b85-a3b1-4307467ef2a7}</destination>
+			<destination>{8fcb59ef-e112-4059-9eb5-3bc3df235abf}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{4a8e5c6a-5459-4c80-afc6-867114d83ae1}">
 		<property name="minimum">
 			<value>0</value>
 		</property>
@@ -798,7 +1145,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 			<destination>{bbdedbb0-9524-477c-96fe-4bd1ac690c49}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterCondition" id="{374c96a8-63b2-48c2-b159-8e3c570b3310}">
+	<object class="ParameterCondition" id="{6cc8b811-0ab6-4c12-ae57-4652b2dcae1b}">
 		<property name="minimum">
 			<value>1</value>
 		</property>

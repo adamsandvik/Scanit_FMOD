@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{6374c085-8cc2-40a6-a9fe-30ac13ba14e4}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
+		<property name="name">
+			<value>Afftive</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7850ce97-c9a6-48bb-9935-d8eacd1988ce}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c1580e7c-df72-4ed9-8a60-f8392ab3857e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{cfbcefcf-eb1f-4a06-87f5-70fbf32b152c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7850ce97-c9a6-48bb-9935-d8eacd1988ce}">
+		<relationship name="effects">
+			<destination>{05ca2d9e-0694-493b-afc2-964dde366469}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c1580e7c-df72-4ed9-8a60-f8392ab3857e}" />
+	<object class="MixerBusFader" id="{05ca2d9e-0694-493b-afc2-964dde366469}" />
+</objects>

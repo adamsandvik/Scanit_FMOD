@@ -223,7 +223,7 @@
 	</object>
 	<object class="AutomationPoint" id="{82783cac-a1e3-4f0c-9bdf-9308a3b2e5f8}">
 		<property name="position">
-			<value>0.015000000000000015</value>
+			<value>0.050000000000000003</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -248,10 +248,6 @@
 			<value>0</value>
 		</property>
 	</object>
-	<object class="GainEffect" id="{aa102b7a-855c-4228-91a8-c66bc791ec7d}">
-		<property name="gain">
-			<value>5</value>
-		</property>
-	</object>
+	<object class="GainEffect" id="{aa102b7a-855c-4228-91a8-c66bc791ec7d}" />
 	<object class="MixerBusFader" id="{e9debdf4-13d1-43fd-aa5b-2e421de4e598}" />
 </objects>

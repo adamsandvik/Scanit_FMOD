@@ -16,22 +16,28 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>7</value>
+			<value>13</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Outdoor</value>
-			<value>City</value>
-			<value>Jungle</value>
-			<value>Water</value>
-			<value>Desert</value>
-			<value>Forest</value>
-			<value>Tundra</value>
+			<value>MainMenu</value>
+			<value>LevelSelect</value>
+			<value>LevelDowntown</value>
+			<value>LevelJungle</value>
+			<value>LevelManual</value>
+			<value>LevelMoon</value>
+			<value>LevelMirror</value>
+			<value>LevelCinema</value>
+			<value>LevelAlotGoingOn</value>
+			<value>LevelIgloo</value>
+			<value>LevelShip</value>
+			<value>LevelCastle</value>
+			<value>LevelSecretAgent</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>
 		<property name="seekSpeed">
-			<value>2.3800000250339508</value>
+			<value>4.4200000464916229</value>
 		</property>
 	</object>
 </objects>

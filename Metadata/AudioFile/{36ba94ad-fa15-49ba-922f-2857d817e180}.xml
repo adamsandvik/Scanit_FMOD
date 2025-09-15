@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{6387bd21-f713-4467-a24b-ef02aa40db4c}">
+	<object class="AudioFile" id="{36ba94ad-fa15-49ba-922f-2857d817e180}">
 		<property name="assetPath">
-			<value>SFX/Buttons/Mechanical/MechanicalButton-006.wav</value>
+			<value>SFX/Buttons/Mechanical/TicketPrint-005.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.168125</value>
+			<value>0.14827083333333332</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{4c925e9d-9295-45b1-9dc3-5eb91c430e91}</destination>

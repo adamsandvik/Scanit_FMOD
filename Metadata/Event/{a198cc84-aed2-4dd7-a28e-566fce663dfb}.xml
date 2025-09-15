@@ -48,6 +48,9 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 		<relationship name="parameters">
 			<destination>{2a163f03-18d9-476b-b20e-c716200a2100}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{e9b2e591-7c72-4a9b-a173-eba5ce9c2a06}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{f6b75e28-ede0-4289-bbd1-936d3b36fbed}">
 		<relationship name="masterBus">
@@ -140,7 +143,7 @@ Thunder = False gör att fåglar spawnas som vanligt.</value>
 	</object>
 	<object class="EventMixerMaster" id="{bb643b90-db39-473d-bf89-79dd70f388d1}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-14.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{76bcbd59-0f7a-4a7c-8ee9-98dfb9e1e9d6}</destination>
